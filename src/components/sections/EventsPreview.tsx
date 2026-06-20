@@ -10,7 +10,7 @@ export default function EventsPreview() {
   const inView = useInView(ref, { once: true, margin: "-100px" });
 
   return (
-    <section ref={ref} className="bg-brand-50 py-24 sm:py-32">
+    <section ref={ref} className="bg-brand-50 py-16 sm:py-24 lg:py-32">
       <div className="container-page">
         <motion.div
           initial={{ opacity: 0, y: 20 }}

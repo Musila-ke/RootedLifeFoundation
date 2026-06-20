@@ -82,7 +82,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMSIvPjwvZz48L2c+PC9zdmc+')] opacity-40" />
       </div>
 
-      <div className="container-page relative z-10 w-full py-32">
+      <div className="container-page relative z-10 w-full py-20 md:py-32">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div ref={textRef}>
             <div className="hero-line mb-4 inline-block overflow-hidden" style={{ opacity: 0, transform: "translateY(80px) rotateX(-15deg)" }}>
@@ -92,10 +92,10 @@ export default function Hero() {
             </div>
 
             <h1 className="hero-line overflow-hidden" style={{ overflowWrap: "anywhere", opacity: 0, transform: "translateY(80px) rotateX(-15deg)" }}>
-              <span className="block font-display text-5xl leading-[1.05] tracking-tight text-white sm:text-6xl md:text-7xl lg:text-7xl">
+              <span className="block font-display text-5xl leading-[1.05] text-white sm:text-6xl md:text-7xl lg:text-7xl">
                 Strength in
               </span>
-              <span className="block font-display text-5xl leading-[1.05] tracking-tight text-brand-400 sm:text-6xl md:text-7xl lg:text-7xl">
+              <span className="block font-display text-5xl leading-[1.05] text-brand-400 sm:text-6xl md:text-7xl lg:text-7xl">
                 Every Sickle.
               </span>
             </h1>

@@ -116,7 +116,7 @@ export default function Navbar() {
       />
 
       <div className="container-page relative flex h-16 items-center justify-between">
-        <div className="relative z-10">
+        <div className="relative z-10 -ml-6">
           <Logo variant="navbar" />
         </div>
 

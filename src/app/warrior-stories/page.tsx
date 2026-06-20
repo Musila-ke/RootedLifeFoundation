@@ -35,11 +35,11 @@ export default function WarriorStoriesPage() {
 
   return (
     <>
-      <section className="relative flex min-h-[50vh] items-end bg-brand-950 pt-32 pb-16">
+      <section className="relative flex min-h-[30vh] items-end bg-brand-950 pt-20 pb-12 md:min-h-[50vh] md:pt-32 md:pb-16">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(220,38,38,0.12)_0%,transparent_60%)]" />
         <div className="container-page relative z-10">
           <span className="text-xs font-semibold tracking-[0.15em] text-brand-400 uppercase">Community</span>
-          <h1 className="mt-4 font-display text-5xl leading-[1.05] tracking-tight text-white sm:text-6xl lg:text-7xl">
+          <h1 className="mt-4 font-display text-5xl leading-[1.05] text-white sm:text-6xl lg:text-7xl">
             Warrior Stories
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-neutral-400">
@@ -71,7 +71,7 @@ export default function WarriorStoriesPage() {
                   </h2>
                   <p className="mt-2 text-sm leading-relaxed text-neutral-600">{story.excerpt}</p>
                   <span className="mt-4 inline-flex items-center gap-1 text-sm font-medium text-brand-600 group-hover:text-brand-700">
-                    Read {story.name.split(" ")[0]}'s story
+                    Read {story.name.split(" ")[0]}&apos;s story
                     <svg className="h-3.5 w-3.5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                       <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
                     </svg>

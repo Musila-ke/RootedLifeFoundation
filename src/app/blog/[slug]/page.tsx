@@ -73,7 +73,7 @@ async function BlogPostContent({ params }: { params: Promise<{ slug: string }> }
 
   return (
     <>
-      <section className="relative bg-brand-950 pt-32 pb-16">
+      <section className="relative bg-brand-950 pt-20 pb-12 md:pt-32 md:pb-16">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(220,38,38,0.12)_0%,transparent_60%)]" />
         <div className="container-page relative z-10">
           <Link
@@ -88,7 +88,7 @@ async function BlogPostContent({ params }: { params: Promise<{ slug: string }> }
           <span className="block text-xs font-semibold tracking-[0.15em] text-brand-400 uppercase">
             {post.category}
           </span>
-          <h1 className="mt-4 max-w-3xl font-display text-4xl leading-[1.05] tracking-tight text-white sm:text-5xl lg:text-6xl">
+          <h1 className="mt-4 max-w-3xl font-display text-4xl leading-[1.05] text-white sm:text-5xl lg:text-6xl">
             {post.title}
           </h1>
           <div className="mt-6 flex items-center gap-4 text-sm text-neutral-400">
