@@ -11,7 +11,7 @@ export default function ImpactPage() {
 
   return (
     <>
-      <section className="relative flex min-h-[30vh] items-end bg-brand-950 pt-20 pb-12 md:min-h-[50vh] md:pt-32 md:pb-16">
+      <section className="relative flex items-end bg-brand-950 pt-16 pb-10 sm:pt-20 sm:pb-12 md:pt-24 md:pb-14 lg:pt-28 lg:pb-16 xl:pt-32 xl:pb-16">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(220,38,38,0.12)_0%,transparent_60%)]" />
         <div className="container-page relative z-10">
           <span className="text-xs font-semibold tracking-[0.15em] text-brand-400 uppercase">Our Impact</span>

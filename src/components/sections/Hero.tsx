@@ -82,7 +82,7 @@ export default function Hero() {
         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxnIGZpbGw9IiNmZmYiIGZpbGwtb3BhY2l0eT0iMC4wMyI+PGNpcmNsZSBjeD0iMzAiIGN5PSIzMCIgcj0iMSIvPjwvZz48L2c+PC9zdmc+')] opacity-40" />
       </div>
 
-      <div className="container-page relative z-10 w-full py-20 md:py-32">
+      <div className="container-page relative z-10 w-full py-16 sm:py-20 md:py-24 lg:py-28 xl:py-32">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div ref={textRef}>
             <div className="hero-line mb-4 inline-block overflow-hidden" style={{ opacity: 0, transform: "translateY(80px) rotateX(-15deg)" }}>
